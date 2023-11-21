@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    background-color: #265588;
+    font-family: 'Jost', sans-serif;
+}
+.head{
+    border: solid 5px;
+    margin: 20px;
+    border-color: white white white white;
+    border-radius: 25px; 
+}
+.simongame{
+    border: solid 5px;
+    margin: 15px;
+    padding-bottom: 40px;
+    border-color: white white white white;
+    border-radius: 25px;
+    background-image: url(images/simon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: 60px;
+    font-family: 'Jost', sans-serif;
+    text-decoration: solid;
+    margin: 5px auto 5px auto;
+}
+.btn{
+    margin: 15px ;
+    height: 150px;
+    width: 180px;
+    border-radius: 50px;
+    border: solid 8px black;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+.pressed{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    background-color: grey;
+}
+.game-over{
+    background-color: red;
+    opacity: 0.8;
+}
+.game{
+    font-size: 8rem;
+    text-decoration: solid;
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+}
+.nor{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: auto 60px auto 70px;
+    line-height: 100px;
+    color: white;
+}
+.nor:hover{
+    color: rgb(249, 185, 185);
+}
+.simon{
+    margin: 10px 250px auto 250px;
+    background-color: rgb(31, 103, 158);
+    border-radius: 25px;
+    opacity: 0.8;
+}
